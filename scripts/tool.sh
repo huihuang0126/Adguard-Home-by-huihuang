@@ -30,8 +30,8 @@ toggle_adguardhome() {
 }
 
 case "$1" in
-    start)  start_adguardhome ;;
-    stop)   stop_adguardhome ;;
-    toggle) toggle_adguardhome ;;
-    *)      echo "使用方法: $0 {start|stop|toggle}"; exit 1 ;;
+start)start_adguardhome;;
+stop)stop_adguardhome;;
+toggle)toggle_adguardhome;;
+*)echo "使用方法: $0 {start|stop|toggle}";exit 1;;
 esac
