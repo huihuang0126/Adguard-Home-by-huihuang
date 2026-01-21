@@ -4,8 +4,7 @@
 start_adguardhome() {
     [ -f "$PID_FILE" ] && ps | grep -w "$(cat "$PID_FILE")" | grep -q "AdGuardHome" && exit 0
     export SSL_CERT_DIR="/system/etc/security/cacerts/"
-    [ -f "$AGH_DIR/bin.log" ] && mv "$AGH_DIR/bin.log" "$AGH_DIR/bin.log.bak"
-    "$BIN_DIR/AdGuardHome" > "$AGH_DIR/bin.log" 2>&1 &
+    "$BIN_DIR/AdGuardHome" >/dev/null 2>&1 &
     echo "$!" > "$PID_FILE"
     if [ "$enable_iptables" = true ]; then
         "$SCRIPT_DIR/iptables.sh" enable
