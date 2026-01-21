@@ -2,7 +2,7 @@
 . "/data/adb/agh/settings.conf"; . "/data/adb/agh/scripts/base.sh"
 
 start_adguardhome() {
-    [ -f "$PID_FILE" ] && ps | grep -w "$(cat "$PID_FILE")" | grep -q "AdGuardHome" && exit 0
+    [-f"$PID_FILE"]&&ps-p"$(cat"$PID_FILE")">/dev/null2>&1&&exit0
     export SSL_CERT_DIR="/system/etc/security/cacerts/"
     "$BIN_DIR/AdGuardHome" >/dev/null 2>&1 &
     echo "$!" > "$PID_FILE"
