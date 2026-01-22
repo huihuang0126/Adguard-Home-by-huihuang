@@ -283,6 +283,8 @@ user_rules:
   - '@@/(contents|accounts|video-preview|pages)\.ctrip\.com/$important'
   - '@@/(dimg04|webresource|pages|images3)\.c-ctrip\.com/$important'
   - '@@||map.baidu.com^$important'
+  - '#针对阿里云盘的放行规则'
+  - '@@||cn-beijing-data.aliyundrive.net^$important'
   - '#拼多多SDK拦截规则'
   - '/(a|m|at|lp|xg|th|api|apm|adim|meta|api-shb1|sh2|mobile|mobile-sht|th-b|apm-a)\.pinduoduo.(com|net|cn)/'
   - '#针对天猫校园的拦截规则'
