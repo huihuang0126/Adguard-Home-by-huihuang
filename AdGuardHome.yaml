@@ -319,6 +319,7 @@ user_rules:
   - '/(^|\.)baidu.com/'
   - '||wejianzhan.com^$important'
   - '||oschina.net^$important'
+  - '/(^|\.)n.shifen.com/'
   - '#针对腾讯QQ浏览器的拦截规则'
   - '/(report.*|r.release|data.ab|wup.imtt|apponline.research|tmfmazuhttp-wangka.m|stun.qqlive|punch.p2p|static.qblv|qbuc.html5|ug.qbimg|mcdn.kandian|gameresource.itop|compliance.tdos|iegadp)\.qq.com/'
   - '||tam.cdn-go.cn^$important'
