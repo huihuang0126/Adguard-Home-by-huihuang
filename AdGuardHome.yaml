@@ -315,8 +315,6 @@ user_rules:
   - '/(open|gsbali|gsbtx|adsehera|adbehaviorhera|adbehavior.wsa|adbehavior)\.ximalaya.com/'
   - '#针对咪咕视频的拦截规则'
   - '/(ggx.*|ggic01|ggtagcache)\.(miguvideo|cmvideo)\.(com|cn)/'
-  - '#针对腾讯QQ的拦截规则'
-  - '||tianshu.gtimg.cn^$important'
   - '#针对百度的拦截规则'
   - '/(^|\.)baidu.com/'
   - '||wejianzhan.com^$important'
