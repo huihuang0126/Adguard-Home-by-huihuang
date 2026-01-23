@@ -2,9 +2,9 @@
 . "/data/adb/agh/settings.conf"; . "/data/adb/agh/scripts/base.sh"
 
 start_adguardhome() {
-    [-f"$PID_FILE"]&&ps-p"$(cat"$PID_FILE")">/dev/null2>&1&&exit0
+    [ -f "$PID_FILE" ] && ps -p "$(cat "$PID_FILE")" > /dev/null 2>&1 && exit 0
     export SSL_CERT_DIR="/system/etc/security/cacerts/"
-    "$BIN_DIR/AdGuardHome" >/dev/null 2>&1 &
+    "$BIN_DIR/AdGuardHome" > /dev/null 2>&1 &
     echo "$!" > "$PID_FILE"
     if [ "$enable_iptables" = true ]; then
         "$SCRIPT_DIR/iptables.sh" enable
