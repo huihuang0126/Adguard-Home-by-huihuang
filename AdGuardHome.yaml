@@ -289,6 +289,7 @@ user_rules:
   - '@@/(baiqueling|bailingniao2|boscdn|hotel|didian|carowner|mbd|passport|map-bizcenter|zt|mapglobal|yongche|bdbus-turbonet|ossapi|minipro|oil|parking)\.baidu\.com/$important'
   - '@@||low-frequency-vertical-industry.bj.bcebos.com^$important'
   - '@@||bj.bcebos.com^$important'
+  - '@@||su.bcebos.com^$important'
   - '#拼多多SDK拦截规则'
   - '/(a|m|at|lp|xg|th|api|apm|adim|meta|api-shb1|sh2|mobile|mobile-sht|th-b|apm-a)\.pinduoduo.(com|net|cn)/'
   - '#针对天猫校园的拦截规则'
