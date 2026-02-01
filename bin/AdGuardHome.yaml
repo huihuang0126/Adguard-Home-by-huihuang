@@ -31,6 +31,8 @@ dns:
     - https://2026.dns1.top/dns-query
     - https://dns.quickso.cn:4433/dns-query
     - https://bl-dns.yiancloud.com.cn:843/dns-query
+    - https://ti1s.com/dns-query
+    - https://dns.ipv4dns.com/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
     - 180.184.1.1
