@@ -29,8 +29,7 @@ dns:
     - https://120.53.53.53/dns-query
     - https://doh.18bit.cn/dns-query
     - https://2026.dns1.top/dns-query
-    - https://dns.ipv4dns.com/dns-query
-    - https://bl-dns.yiancloud.com.cn:843/dns-query
+    - https://dns.quickso.cn:4433/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
     - 180.184.1.1
