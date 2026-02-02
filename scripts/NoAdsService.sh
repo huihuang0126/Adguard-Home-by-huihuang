@@ -76,10 +76,17 @@ while true; do
     
    #堆糖
     block_rw "/data/data/com.duitang.main/shared_prefs/name.xml"
+    
     #同花顺
     block_rw "/data/data/com.hexin.plat.android/cache/splash_images/"
+    
     #酷狗
     block_rw "/data/media/0/Android/data/com.kugou.android/files/kugou/.splash_v4/"
+     
+     #腾讯地图
+    block_rw "/data/data/com.tencent.map/files/8c597f8d3cda22e1405f01f31a0709fb2026013000002026020323594306splash.jpg"
+    block_rw "/data/data/com.tencent.map/files/aa713ed87396091b66515e25999fc02b2026012900002027013023594265splash.jpg"
+
 # 自动关闭私人DNS
 settings get global private_dns_mode | grep off || settings put global private_dns_mode off
 
