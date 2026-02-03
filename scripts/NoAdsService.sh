@@ -86,7 +86,10 @@ while true; do
      #腾讯地图
     block_rw "/data/data/com.tencent.map/files/8c597f8d3cda22e1405f01f31a0709fb2026013000002026020323594306splash.jpg"
     block_rw "/data/data/com.tencent.map/files/aa713ed87396091b66515e25999fc02b2026012900002027013023594265splash.jpg"
-
+    
+    #驾考宝典
+    block_rw "/data/data/com.handsgo.jiakao.android/shared_prefs/mucangData.db.xml"
+    
 # 自动关闭私人DNS
 settings get global private_dns_mode | grep off || settings put global private_dns_mode off
 
