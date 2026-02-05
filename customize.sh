@@ -3,7 +3,6 @@ SKIPUNZIP=1
 AGH_DIR="/data/adb/agh"
 BIN_DIR="$AGH_DIR/bin"
 SCRIPT_DIR="$AGH_DIR/scripts"
-PID_FILE="$AGH_DIR/bin/agh.pid"
 
 unzip -o "$ZIPFILE" "action.sh" "module.prop" "service.sh" -d "$MODPATH" >/dev/null 2>&1
 
