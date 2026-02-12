@@ -226,6 +226,7 @@ user_rules:
   - '@@||dig.bdurl.net^$important'
   - '@@||i.snssdk.com^$important'
   - '@@||cloudauth.cn-beijing.aliyuncs.com^$important'
+  - '@@||d.toutiao.com^$important'
   - '#针对第三方哔哩哔哩的放行规则'
   - '@@||upos-*^$important'
   - '#针对荣耀设备相关的放行规则'
