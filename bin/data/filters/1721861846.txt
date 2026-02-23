@@ -21469,7 +21469,6 @@
 ||c.musicradio.com^
 ||c.newyorker.com^
 ||c.nuhcpf.com^
-||c.pc.qq.com^
 ||c.plerdy.com^
 ||c.pravo.ru^
 ||c.refun.do^
