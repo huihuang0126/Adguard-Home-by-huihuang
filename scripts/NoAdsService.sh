@@ -91,10 +91,9 @@ while true; do
     
     #百度网盘
     block_rw "/data/data/com.baidu.netdisk/databases/account.db"
-
+    
     #apkpure
     block_rw "/data/data/com.apkpure.aegon/cache/splash/"
-
 # 自动关闭私人DNS
 settings get global private_dns_mode | grep off || settings put global private_dns_mode off
 
