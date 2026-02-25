@@ -497,7 +497,7 @@ user_rules:
   - '||cdn-*.g52j7.com^$important'
   - '/(vip.huijujiavip|vip.aqdm349|vip.cqtnfs|xcdn.rltdxt|bdxiguaimg)\.com/'
   - '#针对酷狗音乐的广告拦截规则'
-  - '/(gad|mvads|adservice|activity|ads.bssdl|adserviceretry|voowebpbssdl|h5retry|h5|gateway|gatewayretry|mdpfilebssdlbig)\.(kglink|kugou)\.(cn|com)/'
+  - '/(gad|mvads|adservice|ads.bssdl|adserviceretry|gatewayretry)\.(kglink|kugou)\.(cn|com)/'
   
   - '#针对亲邻开门的广告拦截规则'
   - '||tracker.yfanads.com^$important'
