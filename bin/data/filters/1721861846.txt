@@ -78703,7 +78703,6 @@
 ||server2.www1.dr.goldenserviceawards.net.jumia.co.ke^
 ||server4ads.com^
 ||server7.notifysrv.com^
-||serveraddr.service.kugou.com^
 ||serverbid.com^
 ||serverhumidity.com^
 ||serveris.lnk.lt^
