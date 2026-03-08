@@ -207,6 +207,7 @@ user_rules:
   - '@@||txxy-public-prd.oss-cn-shenzhen.aliyuncs.com^$important' 
   - '@@||arup.m.taobao.com^$important' 
   - '@@/(alsc-cofig|ipassport|mtop)\.ele\.me/$important'
+  - '@@||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^$important' 
   - '#针对魅族应用商店的放行规则' 
   - '@@/(ys-gdown|ot-gdown|gdown|cover)\.baidu\.com/$important'
   - '@@||imtt.dd.qq.com^$important'
