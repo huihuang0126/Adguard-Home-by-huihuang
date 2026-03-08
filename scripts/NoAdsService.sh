@@ -94,6 +94,10 @@ while true; do
     
     #apkpure
     block_rw "/data/data/com.apkpure.aegon/cache/splash/"
+    
+    # 驾校一点通
+   block_rw "/data/data/com.jxedt/shared_prefs/lcdpr.xml"
+   
 # 自动关闭私人DNS
 settings get global private_dns_mode | grep off || settings put global private_dns_mode off
 
